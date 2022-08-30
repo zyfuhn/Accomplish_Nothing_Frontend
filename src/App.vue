@@ -17,6 +17,14 @@
     <br>  
     <p>4.表单绑定</p>
     <FormBinding/>
+    <br>  
+    <br>  
+    <p>5.条件渲染</p>
+    <ConditionRending/>
+    <br>  
+    <br>  
+    <p>6.列表渲染</p>
+    <ListRending/>
 
   </n-config-provider>
 </template>
@@ -28,6 +36,8 @@ import DeclarRending from "./interaction/DeclarRending.vue";
 import AttributionBind from "./interaction/AttributionBind.vue";
 import EventListening from "./interaction/EventListening.vue";
 import FormBinding from "./interaction/FormBinding.vue";
+import ConditionRending from "./interaction/ConditionRending.vue";
+import ListRending from "./interaction/ListRending.vue";
 
 export default defineComponent({
   name: 'App',
@@ -35,7 +45,9 @@ export default defineComponent({
     DeclarRending, 
     AttributionBind,
     EventListening,
-    FormBinding
+    FormBinding,
+    ConditionRending,
+    ListRending
   },
   setup() {
     return {
