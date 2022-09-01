@@ -1,5 +1,6 @@
 <script setup>
     import {ref, reactive} from 'vue'
+    import HListRending from "./HListRending.vue"
     const newDo = ref('')
     const id = ref(0)
     const todoList = reactive({
@@ -33,4 +34,5 @@
     <ul>
         <li  v-for="todo in todoList.arr" :key="todo.todoId">{{todo.content}} <button @click="delTodo(todo)">删除</button></li> 
     </ul>
+    <HListRending/>
 </template>

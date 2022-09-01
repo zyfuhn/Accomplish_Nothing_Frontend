@@ -25,6 +25,10 @@
     <br>  
     <p>6.列表渲染</p>
     <ListRending/>
+    <br>  
+    <br>  
+    <p>7.计算属性</p>
+    <ComputeAttr/>
 
   </n-config-provider>
 </template>
@@ -38,6 +42,7 @@ import EventListening from "./interaction/EventListening.vue";
 import FormBinding from "./interaction/FormBinding.vue";
 import ConditionRending from "./interaction/ConditionRending.vue";
 import ListRending from "./interaction/ListRending.vue";
+import ComputeAttr from "./interaction/ComputeAttr.vue";
 
 export default defineComponent({
   name: 'App',
@@ -47,6 +52,7 @@ export default defineComponent({
     EventListening,
     FormBinding,
     ConditionRending,
+    ComputeAttr,
     ListRending
   },
   setup() {
