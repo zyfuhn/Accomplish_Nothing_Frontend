@@ -29,6 +29,14 @@
     <br>  
     <p>7.计算属性</p>
     <ComputeAttr/>
+    <br>  
+    <br>  
+    <p>8.生命周期和模板引用</p>
+    <LifeCycleAndTempleteRef/>
+    <br>  
+    <br>  
+    <p>9.侦听器</p>
+    <MyLisitening/>
 
   </n-config-provider>
 </template>
@@ -43,6 +51,8 @@ import FormBinding from "./interaction/FormBinding.vue";
 import ConditionRending from "./interaction/ConditionRending.vue";
 import ListRending from "./interaction/ListRending.vue";
 import ComputeAttr from "./interaction/ComputeAttr.vue";
+import LifeCycleAndTempleteRef from "./interaction/LifeCycleAndTempleteRef.vue";
+import MyLisitening from "./interaction/MyLisitening.vue";
 
 export default defineComponent({
   name: 'App',
@@ -53,6 +63,8 @@ export default defineComponent({
     FormBinding,
     ConditionRending,
     ComputeAttr,
+    LifeCycleAndTempleteRef,
+    MyLisitening,
     ListRending
   },
   setup() {
