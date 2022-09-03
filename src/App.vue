@@ -39,7 +39,7 @@
     <MyLisitening/>
     <br>  
     <br>  
-    <p>10.Props & Emit</p>
+    <p>10.Props & Emit & Slot</p>
     <Parent/>
 
   </n-config-provider>
