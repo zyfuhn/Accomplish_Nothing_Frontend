@@ -37,6 +37,10 @@
     <br>  
     <p>9.侦听器</p>
     <MyLisitening/>
+    <br>  
+    <br>  
+    <p>10.Props & Emit</p>
+    <Parent/>
 
   </n-config-provider>
 </template>
@@ -53,6 +57,7 @@ import ListRending from "./interaction/ListRending.vue";
 import ComputeAttr from "./interaction/ComputeAttr.vue";
 import LifeCycleAndTempleteRef from "./interaction/LifeCycleAndTempleteRef.vue";
 import MyLisitening from "./interaction/MyLisitening.vue";
+import Parent from "./interaction/Parent.vue";
 
 export default defineComponent({
   name: 'App',
@@ -65,6 +70,7 @@ export default defineComponent({
     ComputeAttr,
     LifeCycleAndTempleteRef,
     MyLisitening,
+    Parent,
     ListRending
   },
   setup() {
